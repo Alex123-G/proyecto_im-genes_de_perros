@@ -1,0 +1,70 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: lightgreen;
+}
+.form {
+	width: 40%;
+	margin: 50px auto;
+	text-align: center;
+	font-size: 1.2rem;
+	display: flex;
+	flex-direction: column;
+	border: 3px solid black;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.buscar {
+	font-size: 1.8rem;
+	margin: 15px;
+	width: 40%;
+	background-color: lightblue;
+	border-radius: 8px;
+}
+
+.option_cbo {
+	color: black;
+	font-size: 1.2rem;
+	border-radius: 8px;
+	padding: 5px;
+}
+.container__img_perro {
+	display: flex;
+	flex-direction: row;
+	margin: 0px auto;
+	width: 100%;
+}
+.img_perro {
+	margin: auto;
+	object-fit: scale-down;
+}
+
+@media screen and (max-width: 900px) {
+	.form {
+		width: 70%;
+		margin: 20px auto;
+		text-align: center;
+		font-size: 1.3rem;
+		display: flex;
+		flex-direction: column;
+		border: 2px solid black;
+		border-radius: 10px;
+		padding: 1.875em;
+	}
+
+	.container__img_perro {
+		display: flex;
+		flex-direction: row;
+		margin: 0px auto;
+		width: 90%;
+	}
+	.img_perro {
+		margin: auto;
+		width: 90%;
+		object-fit: scale-down;
+	}
+}
